@@ -1,4 +1,3 @@
-
 public class Fibonacci {  
 
     public static int fibonacci(int num){
@@ -8,8 +7,7 @@ public class Fibonacci {
     }
     
     public static void main(String[] args) {  
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = 5;
         int fib = fibonacci(n);
         System.out.println(fib);
      } 
